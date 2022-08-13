@@ -1,0 +1,19 @@
+.back {
+    margin-top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.lgBack {
+    margin-right: 0;
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
