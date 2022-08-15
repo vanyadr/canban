@@ -3,8 +3,16 @@
     margin-right: 25px;
 }
 
-.a,
-.a:active{
+.a:hover {
+    color: brown;
+}
+
+.a:active {
+    text-decoration: none;
+    color: brown;
+}
+
+.a {
     text-decoration: none;
     color: white;
 }
