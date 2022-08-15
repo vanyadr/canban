@@ -1,0 +1,10 @@
+.butt {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.a,
+.a:active{
+    text-decoration: none;
+    color: white;
+}

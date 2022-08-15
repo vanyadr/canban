@@ -1,0 +1,13 @@
+.elem {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.holder {
+    height: 50px;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.string {
+    padding-top: 7px;
+}

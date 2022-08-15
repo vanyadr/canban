@@ -1,17 +1,17 @@
 import {useRoutes} from "react-router-dom";
-import {Sheet} from "../../pages/Sheet";
+import {Sheet, Board, Adder} from "../../pages";
 
 export const RouterSist = () => {
-    const routes = useRoutes(
+    const route = useRoutes(
         [{
             path: "/",
             element: <Sheet />,
-            // children: [
-            //     { path: "add", element: <Adder /> },
-            //     { path: "board", element: <Board /> }
-            // ]
+            children: [
+                { path: "add", element: <Adder /> },
+                { path: "board", element: <Board /> }
+            ]
         }]
     )
 
-    return routes
+    return route
 }
