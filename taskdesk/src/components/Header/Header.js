@@ -1,4 +1,4 @@
-import {Bg} from "./Background";
+import {Logo} from "./Logo";
 import {Menu} from "./Menu";
 import styles from './Header.module.css'
 
@@ -7,7 +7,7 @@ export const Header = () => {
         <div className={styles.holder}>
             <div className={styles.string}>
                 <div className={styles.elem}>
-                    <Bg/>
+                    <Logo/>
                 </div>
                 <div className={styles.elem}>
                     <Menu/>

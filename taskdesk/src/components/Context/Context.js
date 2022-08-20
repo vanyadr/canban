@@ -10,9 +10,3 @@ export const TasksContextProvider = ({ children }) => {
 };
 
 TasksContext.displayName = 'TasksContext';
-
-// const value = useMemo(() => ({tasks,
-//         addTask(task) {setTasks((prevState) => [...prevState, { ...task, id: prevState.length + 1 },]);},
-//         updateTask(taskId, task) {setTasks((prevState) => prevState.map((prevTask) => {if (prevTask.id === taskId) return { ...prevTask, ...task };return prevTask;}),);},
-//         deleteTask(taskId) {setTasks((prevState) => prevState.filter(({ id }) => id !== taskId));},
-//     }), [tasks],);

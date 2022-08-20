@@ -7,7 +7,7 @@ export const RouterSist = () => {
             path: "/",
             element: <Sheet />,
             children: [
-                { path: "", element: <Start/> },
+                { path: "/", element: <Start/> },
                 { path: "add", element: <Adder /> },
                 { path: "board", element: <Board /> }
             ]

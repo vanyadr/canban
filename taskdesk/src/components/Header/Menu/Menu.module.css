@@ -1,18 +1,18 @@
-.butt {
+.button {
     display: inline-block;
     margin-right: 25px;
 }
 
-.a:hover {
+.link:hover {
     color: brown;
 }
 
-.a:active {
+.link:active {
     text-decoration: none;
     color: brown;
 }
 
-.a {
+.link {
     text-decoration: none;
     color: white;
 }
