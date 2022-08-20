@@ -1,16 +1,19 @@
 import {useContext, useState} from "react";
 import {TasksContext} from "../Context";
+import {useNavigate} from "react-router-dom";
 
 export const TaskAdd = () => {
     const [task, setTask] = useState({name: '', task: ''});
     const value = useContext(TasksContext);
+    const navigate = useNavigate()
     const handleChange = (event) => {
         const {name, value} = event.target
         setTask(prevState => ({...prevState, [name]: value}))
     };
     const onSubmit = (event) => {
-        event.preventDefault()
-        value.addTask(task)
+        event.preventDefault();
+        value.addTask(task);
+        navigate("/board");
     };
     return(
         <div>
